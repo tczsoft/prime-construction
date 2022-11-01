@@ -1,0 +1,288 @@
+
+#hero .carousel img {
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+    width: 100%;
+}
+
+
+#services img{
+    object-fit: cover;
+}
+
+/*#services .p-gallery img:hover{
+    border-top-left-radius: var(--bs-card-inner-border-radius);
+    border-top-right-radius: var(--bs-card-inner-border-radius);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all ease-in-out .5s;
+    transition: all ease-in-out .5s;
+    overflow: hidden;
+    background:  #141414 !important;
+    cursor: pointer;
+} */    
+
+
+#Projects{
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.751),rgba(223, 223, 223, 1));
+}
+.p-gallery{
+    position: relative;
+    overflow: hidden;
+}
+
+.pro-caption {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    text-align: center;
+    background-image: linear-gradient(to top,#aad75d,#d1e990);
+    transform: translateX(-100%);
+    transition: all .3s ease-in-out;
+    -webkit-transform-style: preserve-3d;
+}
+
+#services .p-gallery:hover .pro-caption {
+    transition: all ease-in-out .5s;
+    opacity: 1 !important;
+    top: 42%;
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}   
+
+
+.counter{
+    line-height: 1;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.pro-content{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: auto;
+    z-index: 9;
+    bottom: 0;
+    height: auto;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+}
+
+.pro-content a{
+    opacity: 0;
+    white-space: nowrap;
+    transform: translateY(15px);
+    -webkit-transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+}
+
+.overlay-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, #141414 100%);
+}
+
+#Projects .card:hover .overlay-bg{
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0.249) 0, #141414 100%) !important;
+}
+
+#Projects .card:hover .pro-content{
+    bottom: 40px !important;
+    transition: all .3s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+
+}
+#Projects .card:hover .pro-content a{
+    opacity: 1 !important;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transition: all .3s ease-in-out !important;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+
+#Projects .owl-nav{
+    position: absolute;
+    bottom: -20px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+#Projects .owl-nav .svg-inline--fa{
+    box-shadow: 0 0 10px rgba(0, 0, 0, .22);
+}
+
+#Projects .row{
+    position: relative;
+    z-index: 1;
+}
+
+.verticale{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    line-height: 256px;
+    height: 100%;
+    white-space: nowrap;
+    text-align: center;
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    width: auto;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    opacity: 0.7;
+}
+
+#testnomial .card:before{
+    border-style: solid;
+    height: 0 !important;
+    width: 0 !important;
+    border-color: #fff transparent transparent;
+    border-width: 27px 10px 0 !important;
+    border-left-color: transparent!important;
+    border-right-color: transparent!important;
+    bottom: -19px !important;
+    left: 50px !important;
+    z-index: 1;
+    -webkit-transform: rotate(27deg);
+    -ms-transform: rotate(27deg);
+    transform: rotate(27deg) !important;
+}
+
+#testnomial .card:before {
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    transition: border-color .2s ease, bottom .2s ease;
+}
+
+#testnomial .card:hover{
+    transform: translate3d(0, -4px, 0);
+    transition: all .2s ease;
+}
+
+
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 1rem;
+}
+
+
+
+@media screen and (min-width: 992px) {
+
+    .navbar .dropdown .dropdown-menu{
+
+        top: 44px;
+        left: 0;
+        width: 220px;
+        text-align: left;
+        z-index: 10;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: 0.3s;
+        transition: 0.1s;
+        -webkit-transform: translateY(20px);
+        transform: translateY(20px);
+        
+        margin-top: 0.4rem;
+        transition: all 0.2s ease-in-out;
+        border-radius: 0px;
+        --bs-dropdown-link-hover-color: black;
+        --bs-dropdown-link-hover-bg: rgba(255, 166, 0, 0.432);
+    }
+    .navbar .dropdown:hover .dropdown-menu{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    
+    }
+    
+    .stay-open{
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .stay-open{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 972px) {
+    #hero .carousel{
+        position: relative;
+
+    }
+
+    #hero .carousel-caption {
+        position: absolute;
+        top:40.5%
+    }
+
+    #hero .carousel-inner{
+        height:75vh;
+    }
+
+    #hero .carousel img {
+        height:75vh;
+
+    }
+
+    #hero img{
+        object-fit: cover;
+        
+    }
+
+}
+@media screen and (max-width:972px){
+
+    #hero .carousel-caption {
+        position: absolute;
+        top:30%;
+    }
+    #hero .carousel{
+        position: relative;
+
+    }
+    
+}

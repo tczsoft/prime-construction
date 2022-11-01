@@ -1,0 +1,21 @@
+#company-overview{
+    background: url('../img/aboutus/who_we_are.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ /*   height: calc(100vh - 150px);*/
+   
+}
+
+#company-overview-vh{
+    height: calc(100vh - 150px);
+}
+
+#what-we-do{
+    background: url('../img/aboutus/what_we_do.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#what-we-do-vh{
+    height: calc(100vh - 70px);
+}
