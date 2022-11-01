@@ -466,7 +466,46 @@
             }  
             updateCounter()  
         })
+        
+        $('.venture .owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            autoplay: 2500,
+            slideSpeed: 300,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:2
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
 
+        $('.projects .owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            center:true,
+            navText: ["<i class='fa-solid fa-arrow-left p-2 rounded-circle bg-white me-2'></i>","<i class='fa-solid fa-arrow-right p-2 rounded-circle bg-white'></i>"],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:1
+                },
+                992:{
+                    items:2
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })
         
 
         
