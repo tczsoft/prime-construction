@@ -145,7 +145,7 @@
                 <p class="h1 fw-semibold text-center pb-4">Our Joint Venture</p>
                 <div class="row">
                     <div class="col-md-4"></div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 venture">
                         <div class="owl-carousel owl-theme">
                             <div class="item">
                                 <img src="./assets/img/partners/Trade_logo.jpg" class="img-fluid" alt="">
@@ -172,7 +172,7 @@
                         <p class="h2 mb-3">Some of our Featured Project</p>
                         <p class="mb-4 mb-md-0 text-md-justify">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                     </div>
-                    <div class="col-xl-8 col-lg-7 col-md-6" >
+                    <div class="col-xl-8 col-lg-7 col-md-6 projects" >
                         <div class="owl-carousel owl-theme">
 
                             <div class="card border border-0 item position-relative overflow-hidden">
@@ -467,7 +467,7 @@
             updateCounter()  
         })
 
-        $('#venture .owl-carousel').owlCarousel({
+        $('.venture .owl-carousel').owlCarousel({
             loop:true,
             margin:10,
             autoplay: 2500,
@@ -485,7 +485,7 @@
             }
         })
 
-        $('#Projects .owl-carousel').owlCarousel({
+        $('.projects .owl-carousel').owlCarousel({
             loop:true,
             margin:10,
             nav:true,
