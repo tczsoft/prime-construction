@@ -1,0 +1,62 @@
+#contact-form{
+    background: url('../img/wallpaper/wall_5.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 125px;
+}
+
+.hr {
+    display: flex;
+    flex-direction: row;
+}
+
+.hr:before, .hr:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #b49567f5;
+    margin: auto;
+}
+
+.hr:before {
+    margin-right: 10px
+}
+.hr:after {
+    margin-left: 10px
+}
+
+.bg-overlay{
+    background-color: rgb(28 25 25 / 70%) !important;
+}
+
+.c-chart-card:before{
+    border-style: solid;
+    height: 0 !important;
+    width: 0 !important;
+    border-color: rgb(28 25 25 / 70%) transparent transparent;
+    border-width: 19px 15px 0 0 !important;
+    border-left-color: transparent!important;
+    border-right-color: transparent!important;
+    bottom: -19px !important;
+    left: 50px !important;
+    z-index: 1;
+
+}
+
+.c-chart-card:before {
+    content: "";
+    position: absolute;
+    transform: translateX(-50%);
+    transition: border-color .2s ease, bottom .2s ease;
+}
+
+.c-chart-card:hover{
+    transform: translate3d(0, -4px, 0);
+    transition: all .2s ease;
+}
+
+@media screen and (min-width: 992px) {
+    #contact-form{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+    }
+}

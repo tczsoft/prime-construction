@@ -1,0 +1,179 @@
+.big-font{
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.ifen::before {
+    content: "";
+    display: inline-block;
+    top: -.35em;
+    margin-right: .25em;
+    width: 25px;
+    height: 2px;
+    background: var(--bg-color);
+    vertical-align: middle;
+}
+
+.ifen-1::before {
+    content: "";
+    display: inline-block;
+    top: -.35em;
+    margin-right: .25em;
+    width: 25px;
+    height: 2px;
+    background: rgb(5, 5, 5);
+    vertical-align: middle;
+}
+
+.pi-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.swiper-button-disabled{
+    display: none !important;
+}
+
+.swiper-button-prev {
+    top: 15% !important;
+    left: 50% !important;
+    transform: rotate(90deg);
+}
+
+.swiper-button-next{
+    top: 95% !important;
+    left: 50% !important;
+    transform: rotate(90deg);
+    color: var(--swiper-navigation-color,var(--swiper-theme-color));
+
+}
+
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 20px !important;
+    font-weight: 800;
+    color: white !important;
+    background-color: var(--primary-bg);
+    padding: 10px;
+    border-radius: 100%;
+
+
+}
+
+.swiper-button-next::after{
+    -webkit-animation: sdb04 1s infinite;
+    animation: sdb04 1s infinite;
+
+}
+
+
+  @-webkit-keyframes sdb04 {
+    0% {
+        transform:  translate(0);
+      }
+      20% {
+        transform: translate(-10px);
+      }
+      40% {
+        transform:  translate(15px);
+    }
+  }
+  @keyframes sdb04 {
+    0% {
+      transform:  translate(0);
+    }
+    20% {
+      transform: translate(-10px);
+    }
+    40% {
+      transform:  translate(15px);
+    }
+  }
+
+
+.swiper-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.swiper-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide .container{
+    margin-top: 35px;
+}
+
+
+.swiper-pagination-bullet {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #6d6c6a !important;
+    padding: 8px;
+    border: solid 1px;
+    border-style: dotted;
+}
+
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #706f6d !important;
+    padding: 8px;
+    border: solid 1px;
+    border-style: dotted;
+}
+
+@media screen and (max-width: 767px) {
+    .pi-img{
+        max-width: 75%;
+        height: auto;
+    }
+
+    .big-font{
+        font-size: 34px;
+        font-weight: 0;
+    }
+
+    .next-btn{
+        right: 45%; 
+    }
+    
+    .prev-btn{
+        top: 15px;
+        right: 45%; 
+    }
+
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 99;
+}
+

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/package/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <link rel="icon" type="image/x-icon" href="./assets/img/Logo/favicon.ico">
+  <title>Document</title>
+
+    <style>
+        html,
+        body {
+          height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Navbar-->
+    <header class="fixed-top primary-bg">
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container-fluid">
+                <button class="btn bg-white nav-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    MENU <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <a class="navbar-brand custom-logo d-flex align-items-center bg-white rounded-bottom me-0 ms-10" href="index.html">
+                    <img src="./assets/img/Logo/Pime-Const-Logo.png" alt="logo" width="70px" class="img-fluid m-2">
+                </a>
+
+                <div class="">
+                    <button class="btn bg-white d-none d-md-block" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Enquiry Now
+                    </button>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="./assets/img/Logo/Pime-Const-Logo.png" alt="logo" width="50px" class="img-fluid me-3"> <span class="text-uppercase h4 mb-0 fw-bolder title">Prime <br> Construction</span>
+                    </a>
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="text-center">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item custom-nav btn-15"> <a class="nav-link active" aria-current="page" href="index.html">Home</a> </li>
+                        <li class="nav-item dropdown custom-nav">
+                            <a class="nav-link dropdown-toggle active" href="aboutus.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu text-center">
+                                <li><a class="dropdown-item" href="aboutus.html#company-overview">Who We Are</a></li>
+                                <li><a class="dropdown-item" href="aboutus.html#what-we-do">What We do</a></li>
+                                <li><a class="dropdown-item" href="aboutus.html#team">Management Team</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item custom-nav"> <a class="nav-link active" href="project.html">Projects</a> </li>
+                        <li class="nav-item custom-nav"> <a class="nav-link active" href="contactus.html">Contact Us</a> </li>
+                        <li class="nav-item custom-nav"> <a class="nav-link active" href="primeeventers.html">Prime Eventers</a> </li>   
+                    </ul>
+                    <div>
+                        <img src="./assets/img/prime_event/Eventers_logo.jpg" class="res-img" alt="">
+                        <div>
+                            <a href="" class="me-2 text-dark"><i class="fa fa-phone"></i> +91 4435649362</a> <br>
+                            <a href="" class="text-dark"><i class="fa fa-envelope"></i> primeconstructioncdm@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  <!-- Swiper -->
+  <main class="swiper-container overflow-x-hidden">
+    <button type="button" class="btn bg-white" id="btn-back-to-top" > <i class="fas fa-arrow-up"></i> </button>
+    <div class="swiper-wrapper">
+
+        <!-- page-1 -->
+        <section class="swiper-slide view-sec top-sec-padding primary-bg min-vh-100 position-relative d-grid align-items-center" id="page-1" style="scroll-margin-top:90px">
+          <div class="container mt-0">
+            <div class="row d-flex align-items-center">
+
+                <div class="col-md-6 text-center text-lg-start">
+                  <img src="./assets/img/prime_event/prime-event-logo.PNG" class="pi-img" id="prime-event-logo" alt="">
+                </div>
+                <div class="col-md-6 text-white text-center text-lg-start">
+                  <div class=" big-font col-md-12">NEW ELEGANCE</div>
+                  <div class="secondry-color big-font col-md-12">PRIME EVENTERS </div>
+                  <p class=" h4">By <br> Prime united shell, chennai</p>
+                </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- page-2 -->
+      <section class="swiper-slide view-sec position-relative d-grid align-items-center" id="page-2" style="scroll-margin-top:70px">
+        <div class="container">
+          <div class="row d-flex align-items-center row-reverse">
+
+
+            <div class="col-md-6 bottom text-center">
+              <p class="h2 mb-3 text-md-justify">Every Event in our life  is an exciting Moment,we providing a service to enchance your  Moment into Memories </p>
+            </div>
+            <div class="col-md-6 text-center top">
+              <img src="./assets/img/prime_event/img-1.jpg" class="pi-img rounded-5 mb-5" alt="">
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- page-3 -->
+      <section class="swiper-slide view-sec primary-bg position-relative d-grid align-items-center" id="page-3" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center row-reverse">
+
+
+                <div class="col-md-6 bottom text-md-justify">
+                    <p class="h1 secondry-color fw-bolder mb-4">We hope your celebrations gives  you happy memories with</p>
+                    <ul class="list-unstyled text-white h4 lh-lg">
+                        <li><span class="ifen"></span> Unifying Theme</li>
+                        <li><span class="ifen"> Affordable Budget</li>
+                        <li><span class="ifen"> Entertaining Game</li>
+                        <li><span class="ifen"> Organizing Guests</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 top text-center text-lg-start">
+                    <img src="./assets/img/prime_event/img-2.jpg" class="pi-img rounded-5 mb-3" alt="">
+                </div>
+
+            </div>
+            
+        </div>
+      </section>
+
+      <!-- page-4 -->
+
+      <section class="swiper-slide view-sec bg-color position-relative d-grid align-items-center" id="page-4" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+
+                <div class="col-md-6 text-md-justify">
+                    <img src="./assets/img/prime_event/img-4.jpg" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+                <div class="col-md-6 text-center text-lg-start">
+                    <p class="h1 text-white fw-bolder mb-2">Official Events</p>
+                    <p class="h4 text-white">We had an expertized management to provide a statisfactory services for  your proceedings </p>
+                    <ul class="list-unstyled text-white h6 lh-lg">
+                        <li><span class="ifen-1"></span> Unifying Theme</li>
+                        <li><span class="ifen-1"> Affordable Budget</li>
+                        <li><span class="ifen-1"> Entertaining Game</li>
+                        <li><span class="ifen-1"> Organizing Guests</li>
+                    </ul>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-5 -->
+
+    <section class="swiper-slide view-sec primary-bg position-relative d-grid align-items-center" id="page-5" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center row-reverse">
+
+                <div class="col-md-6 text-center text-lg-start bottom">
+                    <p class="h1 secondry-color fw-bolder mb-2">lovable Events</p>
+                    <p class="h5 text-white text-justify">Its good to throw a party to meet your old friends or relatives to celebrate an occation, we are sure 
+                        you must have your favorite parties  with prime eventers. </p>
+                    <ul class="list-unstyled text-white h6 lh-lg">
+                        <li><span class="ifen"></span> Get together</li>
+                        <li><span class="ifen"></span> Reunion</li>
+                        <li><span class="ifen"></span> Surprise parties</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 text-md-justify top">
+                    <img src="./assets/img/prime_event/img-5.png" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-6 -->
+
+    <section class="swiper-slide view-sec bg-white position-relative d-grid align-items-center" id="page-6" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+
+                <div class="col-md-6 text-md-justify">
+                    <img src="./assets/img/prime_event/img-6.jpg" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+                <div class="col-md-6 text-center text-lg-start">
+                    <p class="h1 secondry-color fw-bolder mb-2">Educational Events</p>
+                    <p class="h5 text-dark text-justify">Arranging elegant platform for exposing your hidden talents through the cultural  events . </p>
+                    <ul class="list-unstyled text-dark h6 lh-lg">
+                        <li><span class="ifen"></span> Schools & College Culturals</li>
+                        <li><span class="ifen"></span> Graduations</li>
+                        <li><span class="ifen"></span> Farewells</li>
+                        <li><span class="ifen"></span> Alumini Meet</li>
+                        <li><span class="ifen"></span> Sports</li>   
+                    </ul>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-7 -->
+
+    <section class="swiper-slide view-sec primary-bg position-relative d-grid align-items-center" id="page-7" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center row-reverse">
+
+                <div class="col-md-6 text-center text-lg-start bottom">
+                    <p class="h1 secondry-color fw-bolder mb-2">MARRIAGE EVENTS</p>
+                    <p class="h5 text-white text-justify mb-3">True love stands by each other’s side on good days and stands closer on  bad days.</p>
+                    <p class="h5 text-white text-justify">We are providing innovative designs  for establishing your life long  journeny which will bring 
+                        immense  joy to your life.</p>
+                    
+                </div>
+
+                <div class="col-md-6 text-md-justify top">
+                    <img src="./assets/img/prime_event/img-7.jpg" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-8 -->
+
+    <section class="swiper-slide view-sec bg-color position-relative d-grid align-items-center" id="page-8" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center row-reverse">
+
+
+                <div class="col-md-6 text-center text-lg-start bottom">
+                    <p class="h2 text-white fw-bolder mb-2">Statifying Arrangements</p>
+                    <p class="h5 text-dark text-justify mb-3">Stage Decoration, Attractive Entry,  Luminous Lightings.</p>
+
+                    <p class="h2 text-white fw-bolder mb-2">Unforgettable Food Services</p>
+                    <p class="h5 text-dark text-justify mb-3">Silver service, Buffet, Trolly service</p>
+                    
+                </div>
+
+                <div class="col-md-6 text-md-justify top">
+                    <img src="./assets/img/prime_event/img-8.PNG" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-9 -->
+
+    <section class="swiper-slide view-sec primary-bg position-relative d-grid align-items-center" id="page-9" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center row-reverse mt-3">
+
+
+                <div class="col-md-6 text-center text-lg-start bottom">
+
+                    <p class="h3 text-white fw-bolder mb-2">Gorgeous Makeover</p>
+                    <p class="h5 secondry-color text-justify mb-3">Authentical makeup for Bride & Groom,  Mehendi, Dazzling Oranaments.</p> 
+
+                    <p class="h3 text-white fw-bolder mb-2">Stunning Captures</p>
+                    <p class="h5 secondry-color text-justify mb-3">Aerial, Candid, Fashion photography.</p>
+                    <p class="h3 text-white fw-bolder mb-2">Funtastic Features</p>
+                    <p class="h5 secondry-color text-justify mb-3">Pleasant music, Melam, Rocking DJ.</p>
+                </div>
+
+                <div class="col-md-6 text-md-justify top">
+                    <img src="./assets/img/prime_event/img-9.PNG" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-10 -->
+
+    <section class="swiper-slide view-sec bg-white position-relative d-grid align-items-center" id="page-10" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center row-reverse">
+
+
+                <div class="col-md-6 text-center text-lg-start bottom">
+
+                    <p class="h3 secondry-color fw-bolder mb-2">We also providing Trips and Camping  services</p>
+                    <p class="h5 text-dark text-md-justify mb-3">Travel is better with friends.</p> 
+
+                    <ul class="list-unstyled text-dark h6 lh-lg">
+                        <li><span class="ifen-1"></span> Office Employes</li>
+                        <li><span class="ifen-1"></span> Colleges</li>
+                        <li><span class="ifen-1"></span> Schools</li>
+                        <li><span class="ifen-1"></span> Friends & Family</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 text-md-justify top">
+                    <img src="./assets/img/prime_event/img-10.PNG" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-11 -->
+
+    <section class="swiper-slide view-sec bg-color position-relative d-grid align-items-center" id="page-11" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center row-reverse">
+
+
+                <div class="col-md-6 text-center text-lg-start bottom">
+
+                    <p class="h3 text-dark fw-bolder mb-2">Travel Crew</p>
+                    <p class="h5 text-white text-md-justify mb-2">The camp is the space that is opened when the state of exception begins to become the  rule .</p> 
+
+                    <ul class="list-unstyled text-white h6 lh-lg">
+                        <li><span class="ifen-1"></span> Eagle Tree</li>
+                        <li><span class="ifen-1"></span> Scenic Beach</li>
+                        <li><span class="ifen-1"></span> Island Lake Camp</li>
+                        <li><span class="ifen-1"></span> Green Mountain</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 text-md-justify top">
+                    <img src="./assets/img/prime_event/img-11.jpg" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- page-12 -->
+
+    <section class="swiper-slide view-sec primary-bg position-relative d-grid align-items-center" id="page-12" style="scroll-margin-top:70px">
+        <div class="container">
+            <div class="row d-flex align-items-center mt-3">
+
+                <div class="col-md-6 text-md-justify">
+                    <img src="./assets/img/prime_event/Eventers_logo - Copy.jpg" class="pi-img rounded-5 mb-2" alt="">
+                </div>
+
+                <div class="col-md-6 text-center text-lg-start">
+
+                    <p class="h5 text-white fw-bolder mb-2">Improve Experience</p>
+                    <p class="h1 secondry-color fw-bolder mb-2">PRIME  EVENTERS </p>
+                    <p class="h5 text-white text-md-justify mb-4">Tamilnadu, kerala, Karnataka, Andhra</p> 
+
+                    <div class="row text-white">
+                        <div class="col-md-6 mb-3">
+                            Prime United Shell 53, 4th Street, Kumaran Kudil,  Mettukuppam, Thoraipakkam,  OMR, Chennai- 97
+                        </div>
+                        <div class="col-md-6">
+                            +91 8778671631, +91 7200601511, +91 8270397828 <br>
+                            Primeconstructioncdm@gmail.com  www.Primeconstruction.co.in                                
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+
+    <div class="swiper-button-next"></div>
+
+  </main>
+      <!-- Footer -->
+      <footer>
+        <section class="view-sec bg-color text-white">
+            <div class="container">
+                <div class="row text-md-start text-center">
+                    <div class="col-md-4 lh-base mb-3">
+                        <p class="h5 fw-semibold">PRIME CONSTRUCTION</p>
+                        <p class="text-md-justify ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 mb-3">
+                        <p class="h5 fw-semibold">QUICK LINKS</p>
+                        <ul class="list-unstyled ps-0 lh-lg">
+                            <li><a class="text-white" href="">Home</a></li>
+                            <li><a class="text-white" href="">About Us</a></li>
+                            <li><a class="text-white" href="">Projects</a></li>
+                            <li><a class="text-white" href="">Business Verticals</a></li>
+                            <li><a class="text-white" href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 lh-base mb-3">
+                        <p class="h5 fw-semibold">CONTACT INFO</p>
+                        <p class="fw-semibold mb-1">Head Office</p>
+                        <p> No: 158/66, East Car Street, Chidambaram-608001, Cuddalore district, Tamilnadu</p>
+                        <p class="fw-semibold mb-1">Branch Office</p>
+                        <p>
+                            No: 53, B1, 4th Cross Street, Kumarn Kudil, Thoripakkam, OMR, Chennai - 600097
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container-fluid primary-bg text-white">
+            <div class="row d-flex align-items-center py-3">
+                <div class="col-md-4 mb-2 mb-md-0 text-md-start text-center">
+                    <p class="mb-0">© 2022. Prime Construction. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-4 text-center mb-2 mb-md-0">
+                    <ul class="list-unstyled d-flex justify-content-center align-items-center ps-0 mb-0">
+                        <li> <a class="btn rounded-circle bg-white text-dark me-2" href=""><i class="fa-brands fa-facebook-f"></i></a> </li>
+                        <li> <a class="btn rounded-circle bg-white text-dark me-2" href=""><i class="fa-regular fa-envelope"></i></a> </li>
+                        <li> <a class="btn rounded-circle bg-white text-dark me-2" href=""><i class="fa-brands fa-instagram"></i></a> </li>
+                        <li> <a class="btn rounded-circle bg-white text-dark" href=""><i class="fa-brands fa-linkedin"></i></a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-md-end text-center">
+                    <p class="mb-0">Privacy policy | Disclaimer</p>
+                </div>
+            </div>
+        </div>
+    </footer>   
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered w-50">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Enquir Now</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <form action="">
+                  <div class="modal-body">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="row mx-0 mx-0 mb-3 mt-3 ">
+                                  <div class="col-md-6">
+                                      <div class="mb-2 ">
+                                          <label for="name" class="form-label">Name</label>
+                                          <input type="text" class="form-control rounded-4 shadow-sm" name="name" id="name" required>
+                                      </div>
+      
+                                      <div class="mb-2">
+                                          <label for="mobile" class="form-label">Mobile No</label>
+                                          <input type="text" class="form-control rounded-4 shadow-sm" name="mobile" id="mobile">
+                                      </div>
+      
+                                      <div class="mb-2">
+                                          <label for="mail" class="form-label">Email ID</label>
+                                          <input type="text" class="form-control rounded-4 shadow-sm" name="mail" id="mail" required>
+                                      </div>
+      
+                                      <div class="mb-2">
+                                          <label for="city" class="form-label">City</label>
+                                          <input type="text" class="form-control rounded-4 shadow-sm" name="city" id="city">
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6 mb-2">
+                                      <label for="messgae">Messgae</label>
+                                      <textarea class="form-control rounded-4 shadow-sm" placeholder="Type here..." name="messgae" id="messgae" style="height: 90%; resize: none"></textarea>
+                                  </div>
+                              
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="modal-footer justify-content-center text-center">
+                      <button class="btn bg-white " type="submit">SEND MESSAGE</button>
+                  </div>
+              </form>
+              
+          </div>
+      </div>
+    </div>
+
+  <script src="./assets/package/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/javascript/backtotop.js"></script>
+  <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            slidesPerView: 1,
+            mousewheel: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+        });
+  </script>
+</body>
+</html>

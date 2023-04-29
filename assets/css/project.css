@@ -1,0 +1,51 @@
+.project-caption {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: normal;
+    text-align: center;
+    background-image: linear-gradient(to top,#303840,#303840);
+    transform: translateX(-100%);
+    transition: all .3s ease-in-out;
+    --webkit-transform-style: preserve-3d;
+    --ms-transform-style: preserve-3d;
+}
+
+.p-gallery:hover .project-caption {
+    transition: all ease-in-out .5s;
+    opacity: 1 !important;
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50.3%;
+    left: 50.3%;
+    transform: translate(-50.3%, -50.3%) !important;
+    -ms-transform: translate(-50.3%, -50.3%);
+} 
+
+#residential{
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url('../img/wallpaper/wall_2.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#interior{
+    background: linear-gradient(rgba(0, 0, 0, 0.471), rgba(0, 0, 0, 0.571)), url('../img/wallpaper/wall_1.jpg') no-repeat;
+    background-attachment: fixed;
+}
+
+#designed_elevation{
+    background: linear-gradient(rgba(0, 0, 0, 0.471), rgba(0, 0, 0, 0.571)),    url('../img/wallpaper/wall_3.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

@@ -1,0 +1,10 @@
+
+:root{
+  --primary-bg : #303840;
+  --bg-color: rgba(180, 149, 103, 0.959);
+  --font-family : "Poppins";
+  --header-bg : white;
+  --bs-dropdown-link-hover-bg: rgb(190,195,207);
+  --primary-color: black;
+}
+

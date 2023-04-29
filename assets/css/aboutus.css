@@ -1,0 +1,39 @@
+#who-we-wre{
+    background: url('../img/aboutus/who_we_are.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+ /*   height: calc(100vh - 150px);*/
+   
+}
+
+#who-we-wre-vh{
+    height: 100vh;
+}
+
+#what-we-do{
+    background: url('../img/aboutus/what_we_do.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#what-we-do-vh{
+    height: 100vh ;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .row-reverse {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .top {
+        order: 1;
+    }
+
+    .bottom {
+        order: 2;
+    }
+
+}
